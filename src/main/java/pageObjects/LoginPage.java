@@ -8,10 +8,10 @@ public class LoginPage {
     public WebDriver driver;
     public LoginPage(WebDriver driver) { this.driver = driver; }
 
-    By email = By.id("user_email");
-    By password = By.id("user_password");
-    By login = By.cssSelector("input[value='Log In']");
-    By forgotPassword = By.cssSelector(".link-below-button");
+    private final By email = By.id("user_email");
+    private final By password = By.id("user_password");
+    private final By login = By.cssSelector("input[value='Log In']");
+    private final By forgotPassword = By.cssSelector(".link-below-button");
     public WebElement getEmail() {
         return driver.findElement(email);
     }

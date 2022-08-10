@@ -9,9 +9,9 @@ public class LandingPage {
     public LandingPage(WebDriver driver) { this.driver = driver; }
 
     //Forma corta de ponerlo con expresión regular. Forma Larga: a[href='https://rahulshettyacademy.com/sign_in/']
-    By signing = By.cssSelector("a[href*='sign_in']");
-    By title = By.cssSelector("div[class='text-center'] h2");
-    By navBar = By.cssSelector(".nav.navbar-nav.navbar-right>li>a");
+    private final By signing = By.cssSelector("a[href*='sign_in']");
+    private final By title = By.cssSelector("div[class='text-center'] h2");
+    private final By navBar = By.cssSelector(".nav.navbar-nav.navbar-right>li>a");
 
     public LoginPage getLogin() {
         driver.findElement(signing).click();

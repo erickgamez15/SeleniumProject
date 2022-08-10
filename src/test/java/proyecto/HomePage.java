@@ -4,9 +4,7 @@ import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.WebDriver;
 import org.testng.annotations.*;
-import pageObjects.ForgotPassword;
-import pageObjects.LandingPage;
-import pageObjects.LoginPage;
+import pageObjects.*;
 
 import java.io.IOException;
 
