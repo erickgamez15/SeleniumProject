@@ -8,14 +8,14 @@ import org.openqa.selenium.ie.InternetExplorerDriver;
 public class driverFactory {
     public static WebDriver chromeInitialize(){
         System.setProperty(
-                "webdriver.chrome.driver","D:\\Users\\erick\\Escritorio\\ProyectoSeccion27\\ProyectoSeccion27\\src\\main\\resources\\chromedriver.exe"
+                "webdriver.chrome.driver","D:\\Users\\erick\\OneDrive\\Documentos\\IntelliJ Projects\\ProyectoSeccion27\\src\\main\\resources\\chromedriver.exe"
         );
         return new ChromeDriver();
     }
 
     public static WebDriver firefoxInitialize(){
         System.setProperty(
-                "webdriver.gecko.driver","D:\\Users\\erick\\Escritorio\\ProyectoSeccion27\\ProyectoSeccion27\\src\\main\\resources\\geckodriver.exe"
+                "webdriver.gecko.driver","D:\\Users\\erick\\OneDrive\\Documentos\\IntelliJ Projects\\ProyectoSeccion27\\src\\main\\resources\\geckodriver.exe"
         );
         return new FirefoxDriver();
     }

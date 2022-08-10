@@ -8,7 +8,11 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="ProyectoSeccion27" />
+        <module name="SeleniumProject" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="SeleniumProject" target="18" />
+    </bytecodeTargetLevel>
   </component>
 </project>

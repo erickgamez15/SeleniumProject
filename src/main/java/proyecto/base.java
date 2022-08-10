@@ -19,7 +19,7 @@ public class base {
     public WebDriver initializeDriver() throws IOException {
         properties = new Properties();
         FileInputStream file = new FileInputStream(
-                "D:\\Users\\erick\\Escritorio\\ProyectoSeccion27\\ProyectoSeccion27\\src\\main\\resources\\data.properties"
+                "D:\\Users\\erick\\OneDrive\\Documentos\\IntelliJ Projects\\ProyectoSeccion27\\src\\main\\resources\\data.properties"
         );
         properties.load(file); //To load file
         String browserName = properties.getProperty("browser"); //Para poder tomar el browser del archivo .properties
