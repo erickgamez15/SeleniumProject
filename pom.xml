@@ -16,7 +16,7 @@
     <build>
         <resources>
             <resource>
-                <directory>D:\Users\erick\Escritorio\ProyectoSeccion27\ProyectoSeccion27\src\main\resources</directory>
+                <directory>D:\Users\erick\OneDrive\Documentos\IntelliJ Projects\ProyectoSeccion27\src\main\resources</directory>
                 <filtering>true</filtering>
             </resource>
         </resources>
